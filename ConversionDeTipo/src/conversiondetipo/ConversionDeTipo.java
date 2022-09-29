@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class ConversionDeTipo {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         //Instancia una variable de la clase Scanner
         Scanner lectura = new Scanner(System.in);
@@ -16,6 +13,7 @@ public class ConversionDeTipo {
         int entero = Integer.parseInt(lectura.nextLine());
         //Muestro el resultado por pantalla
         System.out.println("El entero que has teclado es: " +entero);
+ 
     }
     
 }
